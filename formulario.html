@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css"> 
+</head>
+<body  class="body1">
+    <center>
+        <form action="mensaje" method="post">
+            <h2>Registro</h2>
+
+            <div class="input-group">
+                <input type="text" name="Nombre"  id="Nombre" placeholder="Nombre">
+             
+                <input type="number" name="Telefono" id="Telefono" placeholder="Telefono">
+
+                <input type="text" name="Correo" id="Correo" placeholder="Correo">
+
+                <input type="text" name="Asunto" id="Asunto" placeholder="Asunto">
+
+                <textarea name="Mensaje" cols="30" rows="5" id="Mensaje" placeholder="Mensaje"></textarea>
+
+                <label for="genero">genero:</label>
+                <select id="genero" name="gender" required><br>
+                    <option value="hombre">
+                        hombre
+                    </option>
+                    <option value="mujer">
+                        mujer
+                    </option>
+                    <option value="otro">
+                        otros
+                    </option>
+                </select> <br>
+              <input type="submit" value="Enviar"> <br>  
+              <input type="reset" value="Limpiar">
+            </div>   
+            <div class="form-txt">
+                <a href="#">Politica de privacidad</a>
+                <a href="#">Terminos y condiciones</a>
+            </div> 
+
+        </form>
+   
+</center>
+</body1>
+</html>
